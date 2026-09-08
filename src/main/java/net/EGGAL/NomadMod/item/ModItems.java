@@ -9,7 +9,7 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(NomadMod.MOD_ID);
 
-public static final DeferredItem<Item> DIRT2 = ITEMS.register("dirt2",
+public static final DeferredItem<Item> DIRT2 = ITEMS.register("cooldirt",
         () -> new Item(new Item.Properties()));
 
 
